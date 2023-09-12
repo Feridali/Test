@@ -1,0 +1,56 @@
+circle {
+  fill-opacity: 0.5;
+  transition: fill 1s ease-in;
+}
+circle:hover {
+  fill: red;
+}
+.orange-kant {
+  stroke: orange;
+}
+.transform:hover {
+  transform: translateX(200px);
+}
+.transform {
+  transition: transform 3s;
+}
+.expand {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: width 4s;
+}
+.expand:hover {
+  width: 300px;
+  height: 300px;
+}
+.color-transition {
+  background-color: blueviolet;
+  animation-name: my-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes my-animation {
+  from {
+    background-color: blueviolet;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+.moving {
+  width: 250px;
+  background-color: grey;
+  animation-name: my-movement;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+@keyframes my-movment {
+  10% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translatex(400px);
+  }
+}
