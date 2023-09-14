@@ -1,0 +1,154 @@
+h1 {
+  color: beige;
+  text-align: center;
+  font-family: "sofia", sans-serif;
+  background-color: transparent;
+  margin-bottom: 50px;
+  font-size: 50px;
+  margin-top: 50px;
+}
+.logo {
+  font-size: 25px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 600;
+  height: 200vh;
+}
+
+body {
+  background-image: url("https://www.tapet.com/media/catalog/product/cache/5b18b93ddbe5d6592c6b175f41d24454/w/0/w05109-small.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.div1 {
+  background-color: beige;
+  margin-top: 70px;
+  padding: 50px;
+  width: 100px;
+  height: 150px;
+  overflow: none;
+  color: rgb(98, 144, 184);
+  font-family: "sofia", sans-serif;
+  padding-top: 10px;
+  margin-bottom: 200px;
+  border-style: dotted;
+}
+.div2 {
+  background-color: blueviolet;
+  padding: 50px;
+  width: 200px;
+  height: 100px;
+  color: red;
+  overflow: hidden;
+  overflow: scroll;
+  margin-bottom: 100px;
+  margin-left: -50px;
+  margin-top: 50px;
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+  animation-name: my-animation;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial;
+}
+.navbar ul {
+  list-style: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-bottom: -30px;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.navbar a:hover {
+  background: orange;
+}
+.home-content {
+  max-width: 600px;
+}
+.home-content h2 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: beige;
+}
+.home-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: beige;
+}
+.home-content p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+  color: beige;
+}
+.home-content .btn-box {
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: 50px;
+}
+.btn-box a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 8px;
+  font-size: 19px;
+  color: #081b29;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% 20% 20%;
+}
+.btn-box a:nth-child(2) {
+  background: transparent;
+  color: #00abf0;
+}
+.home-sci {
+  position: absolute;
+  border-bottom-right-radius: 40px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.home-sci a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #00abf0;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #00abf0;
+}
