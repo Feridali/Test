@@ -1,0 +1,35 @@
+body {
+  background-image: url(img/minbild.jpeg);
+}
+h1 {
+  text-align: center;
+  color: beige;
+  background-color: transparent;
+}
+h2 {
+  text-align: center;
+  color: beige;
+}
+p {
+  border: 1px dashed;
+  padding: 10px;
+  font-size: 16px;
+  width: 30%;
+  text-align: center;
+  color: beige;
+  margin-left: 500px;
+  background-color: rgb(205, 194, 215);
+  animation-name: my-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-family: "sofia", sans-serif;
+}
+
+@keyframes my-animation {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: grey;
+  }
+}
